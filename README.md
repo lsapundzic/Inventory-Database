@@ -1,1 +1,1 @@
-# warehousing-inventory-manager
+# Inventory Management Software
