@@ -12,7 +12,9 @@ include "./components/nav.php";
 
 <body>
 
-    <main></main>
+    <main>
+        This is the stock page!
+    </main>
 
 </body>
 
