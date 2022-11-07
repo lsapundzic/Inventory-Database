@@ -13,7 +13,14 @@ include "./components/nav.php";
 <body>
 
   <main>
-    This is the arrivals page!
+    <h3>Arrivals</h3>
+
+    <?php
+
+    include "./components/table.php";
+
+    ?>
+
   </main>
 
 </body>

@@ -13,7 +13,14 @@ include "./components/nav.php";
 <body>
 
   <main>
-    Our company deals in laboratory equipment and such. It is pleasure having you here.
+    <h3>Home Page</h3>
+
+    <?php
+
+    include "./components/table.php";
+
+    ?>
+
   </main>
 
 </body>

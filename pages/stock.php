@@ -13,7 +13,14 @@ include "./components/nav.php";
 <body>
 
     <main>
-        This is the stock page!
+        <h3>Stock</h3>
+
+        <?php
+
+        include "./components/table.php";
+
+        ?>
+
     </main>
 
 </body>

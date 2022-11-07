@@ -13,7 +13,14 @@ include "./components/nav.php";
 <body>
 
     <main>
-        This is the products page!
+        <h3>Products</h3>
+
+        <?php
+
+        include "./components/table.php";
+
+        ?>
+
     </main>
 
 </body>
