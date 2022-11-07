@@ -12,7 +12,9 @@ include "./components/nav.php";
 
 <body>
 
-  <main></main>
+  <main>
+    Welcome to the COLO Laboratory Experts Slovenia web page for trackign the shipments and cargo.
+  </main>
 
 </body>
 
