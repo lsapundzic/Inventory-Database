@@ -14,13 +14,6 @@ include "./components/nav.php";
 
   <main>
     <h3>Home Page</h3>
-
-    <?php
-
-    include "./components/table.php";
-
-    ?>
-
   </main>
 
 </body>
