@@ -1,6 +1,9 @@
 <header>
     <div class="logo">
-        <img src="../images/colo-logo-medium.png" alt="Company logo" width="40px" height="40px">
+        <a href="./index.php">
+            <img src="../images/colo-logo-medium.png" alt="Company logo" width="40px" height="40px">
+        </a>
+
     </div>
     <div class="title">
         <h1>COLO Lab Experts</h1>
