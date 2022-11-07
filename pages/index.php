@@ -7,7 +7,7 @@ include "./components/head.php";
 include "./components/header.php";
 
 // Navbar 
-include "./components/navbar.php";
+include "./components/nav.php";
 ?>
 
 <body>

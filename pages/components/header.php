@@ -1,5 +1,9 @@
 <header>
-    <img src="../images/colo-logo-medium.png" alt="COLO d.o.o. Company Logo" width="75" height="75" />
-    <h1>COLO Laboratory Experts</h1>
-    <h2>Inventory Management System</h2>
+    <div class="logo">
+        <img src="../images/colo-logo-medium.png" alt="Company logo" width="40px" height="40px">
+    </div>
+    <div class="title">
+        <h1>COLO Lab Experts</h1>
+        <h2>Inventory Management Software</h2>
+    </div>
 </header>

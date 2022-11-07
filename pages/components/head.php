@@ -10,6 +10,9 @@
 
     <!-- CSS Style -->
     <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/component_styles/header.css">
+    <link rel="stylesheet" href="../styles/component_styles/nav.css">
+    <link rel="stylesheet" href="../styles/component_styles/footer.css">
 
     <!-- Script -->
     <script src="../scripts/script.js" defer></script>
