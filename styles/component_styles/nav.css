@@ -6,16 +6,15 @@ nav a {
   background-color: lightskyblue;
   border: 2px lightskyblue;
   border-radius: 10px;
-}
-
-.button {
-  text-align: center;
+  padding: 8px 15px 8px 15px;
 }
 
 /* Layout */
 
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .button {
