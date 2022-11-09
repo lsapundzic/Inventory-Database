@@ -1,11 +1,30 @@
 <footer>
-    <address>
-        Steklarska ulica 1A <br>
-        3250 Rogaska Slatina <br>
-        Slovenia <br>
+    <div class="contact">
+        <b>Import / Export Hub: </b>
+        <address class="location1">
+            Steklarska ulica 1A <br>
+            3250 Rogaska Slatina <br>
+            Slovenia <br>
+        </address>
+        <hr>
+        <b>Main Office: </b>
+        <address class="location2">
+            Presernov trg 9 <br>
+            8000 Novo mesto<br>
+            Slovenia <br>
+        </address>
+        <hr>
+        <b>Lab Consumables: </b>
+        <address class="location3">
+            Kidriceva 12B <br>
+            3254 Imeno <br>
+            Slovenia <br>
+        </address>
+
         <a href="tel:+386 559 212">Tel. +386 559 212</a> <br>
         <a href="mailto: office@colo.si">office@colo.si</a>
-    </address>
+
+    </div>
 
     <div class="location">
         <!-- <iframe class="gmap"
@@ -13,4 +32,8 @@
         width="470" height="230" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0">
     </iframe> -->
     </div>
+
+
+
+
 </footer>
