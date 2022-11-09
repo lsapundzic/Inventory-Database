@@ -1,0 +1,13 @@
+h1 {
+  font-size: 4.5rem;
+  /* color: red; */
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+/* Layout */
+header {
+  display: flex;
+}
