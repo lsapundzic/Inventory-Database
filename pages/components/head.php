@@ -15,9 +15,6 @@
     <link rel="stylesheet" href="../styles/component_styles/table.css">
     <link rel="stylesheet" href="../styles/component_styles/footer.css">
 
-    <!-- Script -->
-    <script src="../scripts/script.js" defer></script>
-
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
