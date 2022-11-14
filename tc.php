@@ -1,5 +1,5 @@
 <?php
 
-echo "<div>Hello!</div>";
+echo "<div>Hello! I am a traversal check!</div>";
 
 ?>

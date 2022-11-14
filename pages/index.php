@@ -12,6 +12,8 @@ include "components/nav.php";
 // Body
 include "components/main.php";
 
+include "../tc.php";
+
 // Footer
 // include "components/footer.php";
 
