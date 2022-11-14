@@ -5,8 +5,6 @@
 $dbServername = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-
-// Depends on how the database is called in SQL
 $dbName = "logistics";
 
 // Connection
