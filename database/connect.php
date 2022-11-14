@@ -1,9 +1,14 @@
 <?php
-// Code for connecting to the database
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "logistics";
+$servername = "localhost";
+$username = "root";
+$password = "root";
 
-// Connection
-$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>

@@ -10,13 +10,7 @@ include_once "../database/connect.php";
     $sql = "SELECT * FROM contact";
 
     // Establish a connection with the database and execute the search query 
-    
-
-    try {
-        $result = mysqli_query($conn, $sql);
-    } catch (\Throwable $th) {
-        echo "Something is wrong";
-    }
+    $result = mysqli_query($conn, $sql);
 
     // Check if the connection actually returns anything 
     $resultCheck = mysqli_num_rows($result);
