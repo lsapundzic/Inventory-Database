@@ -16,7 +16,7 @@ include_once "../../database/connect.php";
     $resultCheck = mysqli_num_rows($result);
 
     // What works? 
-    echo "<div>{$conn} / {$result} / {$resultCheck}</div>";
+    echo "<div> / {$result} / {$resultCheck}</div>";
 
     // Test if this works 
     if ($resultCheck > 0) {

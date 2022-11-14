@@ -1,18 +1,18 @@
 <?php
 
 // Head 
-include "./components/head.php";
+include "components/head.php";
 
 // Header 
-include "./components/header.php";
+include "components/header.php";
 
 // Navbar 
-include "./components/nav.php";
+include "components/nav.php";
 
 // Body
-include "./components/main.php";
+include "components/main.php";
 
 // Footer
-// include "./components/footer.php";
+// include "components/footer.php";
 
 ?>
