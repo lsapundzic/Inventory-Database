@@ -20,7 +20,7 @@ include "./components/nav.php";
       mollitia! Corrupti laudantium incidunt atque non unde voluptatum totam! Sed sint iste quidem nihil ipsa
       voluptatem, alias tempora maiores perspiciatis error recusandae minima rerum sit quis modi magni esse cum debitis,
       deleniti mollitia asperiores? Blanditiis porro harum ut quis quibusdam fugit modi suscipit! Tenetur magnam,
-      perferendis rerum repudiandae ab, odit adfasdfaliquam dolorem consequatur cum, pariatur nisi tempore hic ad
+      perferendis rerum repudiandae ab, aliquam dolorem consequatur cum, pariatur nisi tempore hic ad
       facilis?
       Voluptates, minima. Dolorum distinctio, laborum, quia esse, ullam nisi temporibus molestiae tempore fugit non
       explicabo similique. Numquam animi quam aperiam quaerat dolore culpa iure repellat sapiente eveniet cumque dolorem
