@@ -13,6 +13,6 @@ include "./components/nav.php";
 include "./components/main.php";
 
 // Footer
-include "./components/footer.php";
+// include "./components/footer.php";
 
 ?>
