@@ -16,5 +16,3 @@ include "./components/table.php";
 include "./components/footer.php";
 
 ?>
-
-</html>
