@@ -3,26 +3,31 @@ include_once "../database/connect.php";
 ?>
 
 <main>
-
     <?php
 
-    // Query that I want to be displayed 
-    $sql = "SELECT * FROM contact";
+    try {
+        // Query that I want to be displayed 
+        $sql = "SELECT * FROM contact";
 
-    // Establish a connection with the database and execute the search query 
-    $result = mysqli_query($link, $sql);
+        // Establish a connection with the database and execute the search query 
+        $result = mysqli_query($conn, $sql);
 
-    // Check if the connection actually returns anything 
-    $resultCheck = mysqli_num_rows($result);
+        // Check if the connection actually returns anything 
+        $resultCheck = mysqli_num_rows($result);
 
-    // Test if this works 
-    if ($resultCheck > 0) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            echo "<div>{$row['name']}</div>";
+        // Test if this works 
+        if ($resultCheck > 0) {
+            while ($row = mysqli_fetch_assoc($result)) {
+                echo "<div>{$row['name']}</div>";
+            }
+        } else {
+            echo "An error with the database has occured";
         }
-    } else {
-        echo "An error with the database has occured";
+    } catch (\Throwable $th) {
+        echo "Unable to display database info. Caught exception in table.php";
     }
+
+
     ?>
 
     <table>
