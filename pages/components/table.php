@@ -15,9 +15,6 @@ include_once "../database/connect.php";
     // Check if the connection actually returns anything 
     $resultCheck = mysqli_num_rows($result);
 
-    // What works? 
-    echo "<div>{$conn} / {$result} / {$resultCheck}</div>";
-
     // Test if this works 
     if ($resultCheck > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
