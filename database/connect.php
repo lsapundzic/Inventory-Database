@@ -1,14 +1,17 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
+$user = 'root';
+$password = 'root';
+$db = 'logistics';
+$host = 'localhost';
+$port = 3306;
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
+$link = mysqli_init();
+$success = mysqli_real_connect(
+    $link,
+    $host,
+    $user,
+    $password,
+    $db,
+    $port
+);
 ?>
