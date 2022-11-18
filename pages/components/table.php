@@ -38,7 +38,8 @@ try {
             <thead>
                 <tr>
                     <th>PRO</th>
-                    <th>Name</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
                     <th>Category</th>
                     <th>Supplier</th>
                     <th>Width</th>
@@ -54,14 +55,15 @@ try {
 
             echo "
                 <tr>
-                    <td>{$row['pro']}</td>
-                    <td>{$row['name']}</td>
+                    <td>{$row['SKU']}</td>
+                    <td>{$row['Product']}</td>
+                    <td>{$row['quantity']}</td>
                     <td>{$row['category']}</td>
                     <td>{$row['supplier']}</td>
                     <td>{$row['width']}</td>
                     <td>{$row['height']}</td>
                     <td>{$row['length']}</td>
-                    <td>{$row['width']}</td>
+                    <td>{$row['weight']}</td>
                 </tr>  ";
 
         }
