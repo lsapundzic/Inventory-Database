@@ -6,7 +6,12 @@ include_once "../database/connect.php";
 
 try {
     // Query that I want to be displayed 
-    $sql = "SELECT * FROM product";
+    $sql = "SELECT p.pro AS SKU, p.name AS Product, s.quantity AS Quantity, c.type AS Category, su.name AS Supplier, p.width AS Width, p.height AS Height, p.length AS Length, p.weight AS Weight
+    FROM product p
+             JOIN stock s ON p.productID = s.productID
+             JOIN category c ON p.category = c.categoryID
+             JOIN supplier su ON p.supplier = su.supplierID;
+             ";
 
     // Establish a connection with the database and execute the search query 
     $result = mysqli_query($conn, $sql);
