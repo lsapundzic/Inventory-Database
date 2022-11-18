@@ -60,6 +60,13 @@ from supplier s
          join product p on s.supplierID = p.supplier
          join category c2 on p.category = c2.categoryID;
 
-
+-- Queries for the thesis project 
+select p.name as Product, s.quantity as Quantity, c.type as Category, su.name as Supplier
+from product p
+         join stock s on p.productID = s.productID
+         join category c on p.category = c.categoryID
+         join supplier su on p.supplier = su.supplierID;
+         
+         
 -- Reverse engineering
 show create table product;
