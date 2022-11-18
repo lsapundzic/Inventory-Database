@@ -6,7 +6,7 @@ include_once "../database/connect.php";
 
 try {
     // Query that I want to be displayed 
-    $sql = "SELECT * FROM contact";
+    $sql = "SELECT * FROM product";
 
     // Establish a connection with the database and execute the search query 
     $result = mysqli_query($conn, $sql);
