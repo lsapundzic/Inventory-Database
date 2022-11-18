@@ -51,8 +51,6 @@ try {
             <tbody> ";
 
         while ($row = mysqli_fetch_assoc($result)) {
-            // echo "<div>{$row['name']}</div>";
-
             echo "
                 <tr>
                     <td>{$row['SKU']}</td>
