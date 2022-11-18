@@ -24,11 +24,11 @@ try {
     // Establish a connection with the database and execute the search query 
     $result = mysqli_query($conn, $sql);
 
-    // Check if the connection actually returns anything 
-    $resultCheck = mysqli_num_rows($result);
+    // Get the number of rows from the result
+    $rowNumbers = mysqli_num_rows($result);
 
     // Test if this works 
-    if ($resultCheck > 0) {
+    if ($rowNumbers > 0) {
 
         // Display table head
         echo "
