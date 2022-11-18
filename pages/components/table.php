@@ -57,13 +57,13 @@ try {
                 <tr>
                     <td>{$row['SKU']}</td>
                     <td>{$row['Product']}</td>
-                    <td>{$row['quantity']}</td>
-                    <td>{$row['category']}</td>
-                    <td>{$row['supplier']}</td>
-                    <td>{$row['width']}</td>
-                    <td>{$row['height']}</td>
-                    <td>{$row['length']}</td>
-                    <td>{$row['weight']}</td>
+                    <td>{$row['Quantity']}</td>
+                    <td>{$row['Category']}</td>
+                    <td>{$row['Supplier']}</td>
+                    <td>{$row['Width']}</td>
+                    <td>{$row['Height']}</td>
+                    <td>{$row['Length']}</td>
+                    <td>{$row['Weight']}</td>
                 </tr>  ";
 
         }
