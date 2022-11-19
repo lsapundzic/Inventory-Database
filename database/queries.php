@@ -15,7 +15,10 @@ $productQuery = "SELECT p.pro      AS SKU,
                 JOIN supplier su ON p.supplier = su.supplierID;
              ";
 
-$stockQuery = "";
+$stockQuery = "SELECT p.name AS 'Product', s.quantity AS 'Warehouse 3 Stock'
+                FROM product p
+                JOIN stock s ON p.productID = s.productID
+                WHERE s.warehouseID = 3;";
 
 $arrivalsQuery = "";
 

@@ -9,7 +9,7 @@ try {
 
     // Establish a connection with the database and execute the search query 
     // The search query is from the queries.php
-    $result = mysqli_query($conn, $productQuery);
+    $result = mysqli_query($conn, $stockQuery);
 
     // Get the number of rows from the result
     $rowNumbers = mysqli_num_rows($result);
