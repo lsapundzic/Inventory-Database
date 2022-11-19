@@ -16,8 +16,6 @@ try {
 
     // Test if this works 
     if ($rowNumbers > 0) {
-
-        // Display table head
         echo "
             <main>
             <table>
