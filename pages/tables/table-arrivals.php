@@ -9,7 +9,7 @@ try {
 
     // Establish a connection with the database and execute the search query 
     // The search query is from the queries.php
-    $result = mysqli_query($conn, $productQuery);
+    $result = mysqli_query($conn, $arrivalsQuery);
 
     // Get the number of rows from the result
     $rowNumbers = mysqli_num_rows($result);
@@ -60,7 +60,7 @@ try {
     }
 
 } catch (\Throwable $th) {
-    echo "Unable to display database info. Caught exception in table.php";
+    echo "Unable to display database info. Caught exception in table-arrivals.php";
 }
 
 
