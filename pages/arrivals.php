@@ -10,7 +10,7 @@ include "./components/header.php";
 include "./components/nav.php";
 
 // Table 
-include "./components/table.php";
+include "./tables/table-arrivals.php";
 
 // Footer
 // include "./components/footer.php";
