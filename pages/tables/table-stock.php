@@ -19,18 +19,12 @@ try {
         echo "
             <main>
             <table>
-            <caption>Table Displaying The Product Information</caption>
+            <caption>Table Displaying The Stock in Warehosue 3</caption>
             <thead>
                 <tr>
                     <th>PRO</th>
                     <th>Product</th>
                     <th>Quantity</th>
-                    <th>Category</th>
-                    <th>Supplier</th>
-                    <th>Width</th>
-                    <th>Height</th>
-                    <th>Length</th>
-                    <th>Weight</th>
                 </tr>
             </thead>
             <tbody> ";
@@ -41,14 +35,7 @@ try {
                     <td>{$row['SKU']}</td>
                     <td>{$row['Product']}</td>
                     <td>{$row['Quantity']}</td>
-                    <td>{$row['Category']}</td>
-                    <td>{$row['Supplier']}</td>
-                    <td>{$row['Width']}</td>
-                    <td>{$row['Height']}</td>
-                    <td>{$row['Length']}</td>
-                    <td>{$row['Weight']}</td>
                 </tr>  ";
-
         }
 
         echo "
