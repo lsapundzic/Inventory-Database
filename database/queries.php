@@ -17,7 +17,7 @@ $productQuery = "SELECT p.pro      AS SKU,
 
 $stockQuery = "SELECT p.pro as SKU, 
                       p.name AS 'Product', 
-                      s.quantity AS 'Quantity',
+                      s.quantity AS 'Quantity'
                 FROM product p
                 JOIN stock s ON p.productID = s.productID
                 WHERE s.warehouseID = 3;";

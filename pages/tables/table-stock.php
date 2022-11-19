@@ -47,7 +47,7 @@ try {
     }
 
 } catch (\Throwable $th) {
-    echo "Unable to display database info. Caught exception in table.php";
+    echo "Unable to display database info. Caught exception in table-stock.php";
 }
 
 
