@@ -35,7 +35,7 @@ try {
             echo "
                 <tr>
                     <td>{$row['Product']}</td>
-                    <td>{$row['Price']}</td>
+                    <td>$ {$row['Price']} USD</td>
                     <td>{$row['Category']}</td>
                     <td>{$row['HS Code']}</td>
                     <td>{$row['Supplier']}</td>
