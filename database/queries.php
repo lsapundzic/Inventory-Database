@@ -22,7 +22,13 @@ $stockQuery = "SELECT p.pro as SKU,
                 JOIN stock s ON p.productID = s.productID
                 WHERE s.warehouseID = 3;";
 
-$arrivalsQuery = "";
-
-
+$arrivalsQuery = "SELECT p.name AS Product,
+                         p.price AS Price,
+                         c.type AS Category,
+                         c.tariff AS 'HS Code',
+                         s.name AS Supplier
+                  FROM product p
+                  JOIN category c ON c.categoryID = p.category
+                  JOIN supplier s ON p.supplier = s.supplierID
+                  WHERE s.name LIKE 'Taisite%';";
 ?>
