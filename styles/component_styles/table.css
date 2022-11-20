@@ -11,20 +11,28 @@ caption {
   font-weight: bold;
 }
 
+/* Table head columns */
 th {
   font-size: 2rem;
+
+  /* By default it is centered */
   text-align: start;
 }
 
+/* Table row */
 tr {
+  /* FIXME: Not working for some reason */
   padding-bottom: 40px;
 }
 
+/* Table data cell */
 td {
   font-size: 1.6rem;
 }
 
 /* Zebra Styling */
 tr:nth-child(even) {
-  background-color: red;
+  /* FIXME: Also not working */
+  font-size: 50px;
+  background-color: greenyellow;
 }
