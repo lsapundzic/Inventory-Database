@@ -22,15 +22,11 @@ try {
             <caption>Table Displaying The Product Information</caption>
             <thead>
                 <tr>
-                    <th>PRO</th>
                     <th>Product</th>
-                    <th>Quantity</th>
+                    <th>Price</th>
                     <th>Category</th>
+                    <th>HS Code</th>
                     <th>Supplier</th>
-                    <th>Width</th>
-                    <th>Height</th>
-                    <th>Length</th>
-                    <th>Weight</th>
                 </tr>
             </thead>
             <tbody> ";
