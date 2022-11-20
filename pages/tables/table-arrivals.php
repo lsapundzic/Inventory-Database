@@ -34,15 +34,11 @@ try {
         while ($row = mysqli_fetch_assoc($result)) {
             echo "
                 <tr>
-                    <td>{$row['SKU']}</td>
                     <td>{$row['Product']}</td>
-                    <td>{$row['Quantity']}</td>
+                    <td>{$row['Price']}</td>
                     <td>{$row['Category']}</td>
+                    <td>{$row['HS Code']}</td>
                     <td>{$row['Supplier']}</td>
-                    <td>{$row['Width']}</td>
-                    <td>{$row['Height']}</td>
-                    <td>{$row['Length']}</td>
-                    <td>{$row['Weight']}</td>
                 </tr>  ";
 
         }
