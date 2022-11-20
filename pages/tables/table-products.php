@@ -48,7 +48,6 @@ try {
                     <td>{$row['Length']}</td>
                     <td>{$row['Weight']}</td>
                 </tr>  ";
-
         }
 
         echo "
