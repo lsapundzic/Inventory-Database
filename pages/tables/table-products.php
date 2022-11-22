@@ -14,7 +14,6 @@ try {
     // Get the number of rows from the result
     $rowNumbers = mysqli_num_rows($result);
 
-    // Test if this works 
     if ($rowNumbers > 0) {
         echo "
             <main>

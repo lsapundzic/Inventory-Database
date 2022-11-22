@@ -40,7 +40,6 @@ try {
                     <td>{$row['HS Code']}</td>
                     <td>{$row['Supplier']}</td>
                 </tr>  ";
-
         }
 
         echo "
